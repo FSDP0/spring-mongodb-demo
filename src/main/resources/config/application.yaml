@@ -1,0 +1,16 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: root
+      password: password
+      database: sensor
+      authentication-database: admin
+
+springdoc:
+    swagger-ui:
+        path: /swagger-ui.html
